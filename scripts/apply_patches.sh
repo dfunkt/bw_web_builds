@@ -43,7 +43,7 @@ cp -vfR ../resources/src/* ./apps/web/src/
 
 echo "Patching logos"
 replace_embedded_svg_icon \
-	../resources/vaultwarden-logo.svg \
+	../resources/src/images/logo.svg \
 	./libs/auth/src/angular/icons/bitwarden-logo.icon.ts
 replace_embedded_svg_icon \
 	../resources/vaultwarden-admin-console-logo.svg \
