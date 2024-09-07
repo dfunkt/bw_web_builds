@@ -64,4 +64,10 @@ fi
 echo "Using patch: ${PATCH_NAME}"
 git apply "../patches/${PATCH_NAME}" --reject
 
+echo "Change default theme to System"
+sed -i 's/ThemeTypes\.Light/ThemeTypes.System/g' \
+    ./apps/web/src/app/core/core.module.ts
+sed -i 's/theme: \[ThemeTypes\.Light\]/theme: [ThemeTypes.System]/' \
+    ./apps/web/src/app/settings/preferences.component.ts
+
 echo "Patching successful!"
