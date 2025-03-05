@@ -523,6 +523,487 @@ index 0b8ea86491..5d98411f46 100644
          <div class="spinner-container tw-justify-center">
            <i
              class="bwi bwi-spinner bwi-spin bwi-3x tw-text-muted"
+diff --git a/apps/web/src/locales/af/messages.json b/apps/web/src/locales/af/messages.json
+index 5c058d2ad6..92e70a81eb 100644
+--- a/apps/web/src/locales/af/messages.json
++++ b/apps/web/src/locales/af/messages.json
+@@ -1159,7 +1159,7 @@
+     "message": "Teken aan"
+   },
+   "logInToBitwarden": {
+-    "message": "Log in to Bitwarden"
++    "message": "Log in to Vaultwarden"
+   },
+   "authenticationTimeout": {
+     "message": "Authentication timeout"
+diff --git a/apps/web/src/locales/be/messages.json b/apps/web/src/locales/be/messages.json
+index 84b9ce7a59..4713725c73 100644
+--- a/apps/web/src/locales/be/messages.json
++++ b/apps/web/src/locales/be/messages.json
+@@ -1159,7 +1159,7 @@
+     "message": "Увайсці"
+   },
+   "logInToBitwarden": {
+-    "message": "Log in to Bitwarden"
++    "message": "Log in to Vaultwarden"
+   },
+   "authenticationTimeout": {
+     "message": "Authentication timeout"
+diff --git a/apps/web/src/locales/bn/messages.json b/apps/web/src/locales/bn/messages.json
+index afc52f85e8..ee442b9f3a 100644
+--- a/apps/web/src/locales/bn/messages.json
++++ b/apps/web/src/locales/bn/messages.json
+@@ -1159,7 +1159,7 @@
+     "message": "Log in"
+   },
+   "logInToBitwarden": {
+-    "message": "Log in to Bitwarden"
++    "message": "Log in to Vaultwarden"
+   },
+   "authenticationTimeout": {
+     "message": "Authentication timeout"
+diff --git a/apps/web/src/locales/bs/messages.json b/apps/web/src/locales/bs/messages.json
+index 22943f0be4..ea3e5ca0b1 100644
+--- a/apps/web/src/locales/bs/messages.json
++++ b/apps/web/src/locales/bs/messages.json
+@@ -1159,7 +1159,7 @@
+     "message": "Log in"
+   },
+   "logInToBitwarden": {
+-    "message": "Log in to Bitwarden"
++    "message": "Log in to Vaultwarden"
+   },
+   "authenticationTimeout": {
+     "message": "Authentication timeout"
+diff --git a/apps/web/src/locales/cy/messages.json b/apps/web/src/locales/cy/messages.json
+index 0aa20a9e62..3265fa82ad 100644
+--- a/apps/web/src/locales/cy/messages.json
++++ b/apps/web/src/locales/cy/messages.json
+@@ -1159,7 +1159,7 @@
+     "message": "Log in"
+   },
+   "logInToBitwarden": {
+-    "message": "Log in to Bitwarden"
++    "message": "Log in to Vaultwarden"
+   },
+   "authenticationTimeout": {
+     "message": "Authentication timeout"
+diff --git a/apps/web/src/locales/el/messages.json b/apps/web/src/locales/el/messages.json
+index 6fc22e7410..9aeeb6e6eb 100644
+--- a/apps/web/src/locales/el/messages.json
++++ b/apps/web/src/locales/el/messages.json
+@@ -1159,7 +1159,7 @@
+     "message": "Είσοδος"
+   },
+   "logInToBitwarden": {
+-    "message": "Log in to Bitwarden"
++    "message": "Log in to Vaultwarden"
+   },
+   "authenticationTimeout": {
+     "message": "Authentication timeout"
+diff --git a/apps/web/src/locales/en/messages.json b/apps/web/src/locales/en/messages.json
+index f94f99ec43..0204769567 100644
+--- a/apps/web/src/locales/en/messages.json
++++ b/apps/web/src/locales/en/messages.json
+@@ -1180,7 +1180,7 @@
+     "message": "Log in"
+   },
+   "logInToBitwarden": {
+-    "message": "Log in to Bitwarden"
++    "message": "Log in to Vaultwarden"
+   },
+   "authenticationTimeout": {
+     "message": "Authentication timeout"
+diff --git a/apps/web/src/locales/en_GB/messages.json b/apps/web/src/locales/en_GB/messages.json
+index ee68658c04..1c2f45f573 100644
+--- a/apps/web/src/locales/en_GB/messages.json
++++ b/apps/web/src/locales/en_GB/messages.json
+@@ -1159,7 +1159,7 @@
+     "message": "Log in"
+   },
+   "logInToBitwarden": {
+-    "message": "Log in to Bitwarden"
++    "message": "Log in to Vaultwarden"
+   },
+   "authenticationTimeout": {
+     "message": "Authentication timeout"
+diff --git a/apps/web/src/locales/en_IN/messages.json b/apps/web/src/locales/en_IN/messages.json
+index 81585d785a..1e3b63b827 100644
+--- a/apps/web/src/locales/en_IN/messages.json
++++ b/apps/web/src/locales/en_IN/messages.json
+@@ -1159,7 +1159,7 @@
+     "message": "Log in"
+   },
+   "logInToBitwarden": {
+-    "message": "Log in to Bitwarden"
++    "message": "Log in to Vaultwarden"
+   },
+   "authenticationTimeout": {
+     "message": "Authentication timeout"
+diff --git a/apps/web/src/locales/es/messages.json b/apps/web/src/locales/es/messages.json
+index 4a74b101c7..7c6c006a8d 100644
+--- a/apps/web/src/locales/es/messages.json
++++ b/apps/web/src/locales/es/messages.json
+@@ -1159,7 +1159,7 @@
+     "message": "Identificarse"
+   },
+   "logInToBitwarden": {
+-    "message": "Log in to Bitwarden"
++    "message": "Log in to Vaultwarden"
+   },
+   "authenticationTimeout": {
+     "message": "Authentication timeout"
+diff --git a/apps/web/src/locales/et/messages.json b/apps/web/src/locales/et/messages.json
+index 9a8d3d1828..2918588c26 100644
+--- a/apps/web/src/locales/et/messages.json
++++ b/apps/web/src/locales/et/messages.json
+@@ -1159,7 +1159,7 @@
+     "message": "Logi sisse"
+   },
+   "logInToBitwarden": {
+-    "message": "Log in to Bitwarden"
++    "message": "Log in to Vaultwarden"
+   },
+   "authenticationTimeout": {
+     "message": "Authentication timeout"
+diff --git a/apps/web/src/locales/eu/messages.json b/apps/web/src/locales/eu/messages.json
+index 2efe0c0f62..f61f3cf882 100644
+--- a/apps/web/src/locales/eu/messages.json
++++ b/apps/web/src/locales/eu/messages.json
+@@ -1159,7 +1159,7 @@
+     "message": "Hasi saioa"
+   },
+   "logInToBitwarden": {
+-    "message": "Log in to Bitwarden"
++    "message": "Log in to Vaultwarden"
+   },
+   "authenticationTimeout": {
+     "message": "Authentication timeout"
+diff --git a/apps/web/src/locales/fa/messages.json b/apps/web/src/locales/fa/messages.json
+index 3aa355fccb..8e773ef25d 100644
+--- a/apps/web/src/locales/fa/messages.json
++++ b/apps/web/src/locales/fa/messages.json
+@@ -1159,7 +1159,7 @@
+     "message": "ورود"
+   },
+   "logInToBitwarden": {
+-    "message": "Log in to Bitwarden"
++    "message": "Log in to Vaultwarden"
+   },
+   "authenticationTimeout": {
+     "message": "Authentication timeout"
+diff --git a/apps/web/src/locales/fil/messages.json b/apps/web/src/locales/fil/messages.json
+index b9de65f5eb..1126399877 100644
+--- a/apps/web/src/locales/fil/messages.json
++++ b/apps/web/src/locales/fil/messages.json
+@@ -1159,7 +1159,7 @@
+     "message": "Mag-log in"
+   },
+   "logInToBitwarden": {
+-    "message": "Log in to Bitwarden"
++    "message": "Log in to Vaultwarden"
+   },
+   "authenticationTimeout": {
+     "message": "Authentication timeout"
+diff --git a/apps/web/src/locales/gl/messages.json b/apps/web/src/locales/gl/messages.json
+index 1b3a777413..752545b05b 100644
+--- a/apps/web/src/locales/gl/messages.json
++++ b/apps/web/src/locales/gl/messages.json
+@@ -1159,7 +1159,7 @@
+     "message": "Log in"
+   },
+   "logInToBitwarden": {
+-    "message": "Log in to Bitwarden"
++    "message": "Log in to Vaultwarden"
+   },
+   "authenticationTimeout": {
+     "message": "Authentication timeout"
+diff --git a/apps/web/src/locales/he/messages.json b/apps/web/src/locales/he/messages.json
+index 239df6791c..a47b109115 100644
+--- a/apps/web/src/locales/he/messages.json
++++ b/apps/web/src/locales/he/messages.json
+@@ -1159,7 +1159,7 @@
+     "message": "התחבר"
+   },
+   "logInToBitwarden": {
+-    "message": "Log in to Bitwarden"
++    "message": "Log in to Vaultwarden"
+   },
+   "authenticationTimeout": {
+     "message": "Authentication timeout"
+diff --git a/apps/web/src/locales/hi/messages.json b/apps/web/src/locales/hi/messages.json
+index 5128575a71..6833af3e1f 100644
+--- a/apps/web/src/locales/hi/messages.json
++++ b/apps/web/src/locales/hi/messages.json
+@@ -1159,7 +1159,7 @@
+     "message": "Log in"
+   },
+   "logInToBitwarden": {
+-    "message": "Log in to Bitwarden"
++    "message": "Log in to Vaultwarden"
+   },
+   "authenticationTimeout": {
+     "message": "Authentication timeout"
+diff --git a/apps/web/src/locales/id/messages.json b/apps/web/src/locales/id/messages.json
+index 055968f85c..d8a81266f5 100644
+--- a/apps/web/src/locales/id/messages.json
++++ b/apps/web/src/locales/id/messages.json
+@@ -1159,7 +1159,7 @@
+     "message": "Masuk"
+   },
+   "logInToBitwarden": {
+-    "message": "Log in to Bitwarden"
++    "message": "Log in to Vaultwarden"
+   },
+   "authenticationTimeout": {
+     "message": "Authentication timeout"
+diff --git a/apps/web/src/locales/it/messages.json b/apps/web/src/locales/it/messages.json
+index 7ed38e8727..da664e3603 100644
+--- a/apps/web/src/locales/it/messages.json
++++ b/apps/web/src/locales/it/messages.json
+@@ -1159,7 +1159,7 @@
+     "message": "Accedi"
+   },
+   "logInToBitwarden": {
+-    "message": "Log in to Bitwarden"
++    "message": "Log in to Vaultwarden"
+   },
+   "authenticationTimeout": {
+     "message": "Authentication timeout"
+diff --git a/apps/web/src/locales/ka/messages.json b/apps/web/src/locales/ka/messages.json
+index a7a1a5c311..b834f44d0f 100644
+--- a/apps/web/src/locales/ka/messages.json
++++ b/apps/web/src/locales/ka/messages.json
+@@ -1159,7 +1159,7 @@
+     "message": "ავტორიზაცია"
+   },
+   "logInToBitwarden": {
+-    "message": "Log in to Bitwarden"
++    "message": "Log in to Vaultwarden"
+   },
+   "authenticationTimeout": {
+     "message": "Authentication timeout"
+diff --git a/apps/web/src/locales/km/messages.json b/apps/web/src/locales/km/messages.json
+index 1c4e2e5520..10460e60ad 100644
+--- a/apps/web/src/locales/km/messages.json
++++ b/apps/web/src/locales/km/messages.json
+@@ -1159,7 +1159,7 @@
+     "message": "Log in"
+   },
+   "logInToBitwarden": {
+-    "message": "Log in to Bitwarden"
++    "message": "Log in to Vaultwarden"
+   },
+   "authenticationTimeout": {
+     "message": "Authentication timeout"
+diff --git a/apps/web/src/locales/kn/messages.json b/apps/web/src/locales/kn/messages.json
+index 9abeaf5707..f3027a9b87 100644
+--- a/apps/web/src/locales/kn/messages.json
++++ b/apps/web/src/locales/kn/messages.json
+@@ -1159,7 +1159,7 @@
+     "message": "ಲಾಗಿನ್"
+   },
+   "logInToBitwarden": {
+-    "message": "Log in to Bitwarden"
++    "message": "Log in to Vaultwarden"
+   },
+   "authenticationTimeout": {
+     "message": "Authentication timeout"
+diff --git a/apps/web/src/locales/ko/messages.json b/apps/web/src/locales/ko/messages.json
+index 4cc8c84107..b5ee23fa36 100644
+--- a/apps/web/src/locales/ko/messages.json
++++ b/apps/web/src/locales/ko/messages.json
+@@ -1159,7 +1159,7 @@
+     "message": "로그인"
+   },
+   "logInToBitwarden": {
+-    "message": "Log in to Bitwarden"
++    "message": "Log in to Vaultwarden"
+   },
+   "authenticationTimeout": {
+     "message": "Authentication timeout"
+diff --git a/apps/web/src/locales/ml/messages.json b/apps/web/src/locales/ml/messages.json
+index b3c686a0f4..672ee809e4 100644
+--- a/apps/web/src/locales/ml/messages.json
++++ b/apps/web/src/locales/ml/messages.json
+@@ -1159,7 +1159,7 @@
+     "message": "പ്രവേശിക്കുക"
+   },
+   "logInToBitwarden": {
+-    "message": "Log in to Bitwarden"
++    "message": "Log in to Vaultwarden"
+   },
+   "authenticationTimeout": {
+     "message": "Authentication timeout"
+diff --git a/apps/web/src/locales/mr/messages.json b/apps/web/src/locales/mr/messages.json
+index 1c4e2e5520..10460e60ad 100644
+--- a/apps/web/src/locales/mr/messages.json
++++ b/apps/web/src/locales/mr/messages.json
+@@ -1159,7 +1159,7 @@
+     "message": "Log in"
+   },
+   "logInToBitwarden": {
+-    "message": "Log in to Bitwarden"
++    "message": "Log in to Vaultwarden"
+   },
+   "authenticationTimeout": {
+     "message": "Authentication timeout"
+diff --git a/apps/web/src/locales/my/messages.json b/apps/web/src/locales/my/messages.json
+index 1c4e2e5520..10460e60ad 100644
+--- a/apps/web/src/locales/my/messages.json
++++ b/apps/web/src/locales/my/messages.json
+@@ -1159,7 +1159,7 @@
+     "message": "Log in"
+   },
+   "logInToBitwarden": {
+-    "message": "Log in to Bitwarden"
++    "message": "Log in to Vaultwarden"
+   },
+   "authenticationTimeout": {
+     "message": "Authentication timeout"
+diff --git a/apps/web/src/locales/ne/messages.json b/apps/web/src/locales/ne/messages.json
+index 7070b26a7b..925dee92a4 100644
+--- a/apps/web/src/locales/ne/messages.json
++++ b/apps/web/src/locales/ne/messages.json
+@@ -1159,7 +1159,7 @@
+     "message": "Log in"
+   },
+   "logInToBitwarden": {
+-    "message": "Log in to Bitwarden"
++    "message": "Log in to Vaultwarden"
+   },
+   "authenticationTimeout": {
+     "message": "Authentication timeout"
+diff --git a/apps/web/src/locales/nn/messages.json b/apps/web/src/locales/nn/messages.json
+index c139fc606b..5a1159d57b 100644
+--- a/apps/web/src/locales/nn/messages.json
++++ b/apps/web/src/locales/nn/messages.json
+@@ -1159,7 +1159,7 @@
+     "message": "Log in"
+   },
+   "logInToBitwarden": {
+-    "message": "Log in to Bitwarden"
++    "message": "Log in to Vaultwarden"
+   },
+   "authenticationTimeout": {
+     "message": "Authentication timeout"
+diff --git a/apps/web/src/locales/or/messages.json b/apps/web/src/locales/or/messages.json
+index 1c4e2e5520..10460e60ad 100644
+--- a/apps/web/src/locales/or/messages.json
++++ b/apps/web/src/locales/or/messages.json
+@@ -1159,7 +1159,7 @@
+     "message": "Log in"
+   },
+   "logInToBitwarden": {
+-    "message": "Log in to Bitwarden"
++    "message": "Log in to Vaultwarden"
+   },
+   "authenticationTimeout": {
+     "message": "Authentication timeout"
+diff --git a/apps/web/src/locales/ro/messages.json b/apps/web/src/locales/ro/messages.json
+index 0b4572578e..2f3ef6b19a 100644
+--- a/apps/web/src/locales/ro/messages.json
++++ b/apps/web/src/locales/ro/messages.json
+@@ -1159,7 +1159,7 @@
+     "message": "Conectare"
+   },
+   "logInToBitwarden": {
+-    "message": "Log in to Bitwarden"
++    "message": "Log in to Vaultwarden"
+   },
+   "authenticationTimeout": {
+     "message": "Authentication timeout"
+diff --git a/apps/web/src/locales/si/messages.json b/apps/web/src/locales/si/messages.json
+index d7d7133d05..92f285ec20 100644
+--- a/apps/web/src/locales/si/messages.json
++++ b/apps/web/src/locales/si/messages.json
+@@ -1159,7 +1159,7 @@
+     "message": "පිවිසෙන්න"
+   },
+   "logInToBitwarden": {
+-    "message": "Log in to Bitwarden"
++    "message": "Log in to Vaultwarden"
+   },
+   "authenticationTimeout": {
+     "message": "Authentication timeout"
+diff --git a/apps/web/src/locales/sl/messages.json b/apps/web/src/locales/sl/messages.json
+index fad209c3c0..52458cd236 100644
+--- a/apps/web/src/locales/sl/messages.json
++++ b/apps/web/src/locales/sl/messages.json
+@@ -1159,7 +1159,7 @@
+     "message": "Prijava"
+   },
+   "logInToBitwarden": {
+-    "message": "Log in to Bitwarden"
++    "message": "Log in to Vaultwarden"
+   },
+   "authenticationTimeout": {
+     "message": "Authentication timeout"
+diff --git a/apps/web/src/locales/sr_CS/messages.json b/apps/web/src/locales/sr_CS/messages.json
+index 6b5a1e6def..459443d333 100644
+--- a/apps/web/src/locales/sr_CS/messages.json
++++ b/apps/web/src/locales/sr_CS/messages.json
+@@ -1159,7 +1159,7 @@
+     "message": "Prijavi Se"
+   },
+   "logInToBitwarden": {
+-    "message": "Log in to Bitwarden"
++    "message": "Log in to Vaultwarden"
+   },
+   "authenticationTimeout": {
+     "message": "Authentication timeout"
+diff --git a/apps/web/src/locales/te/messages.json b/apps/web/src/locales/te/messages.json
+index 1c4e2e5520..10460e60ad 100644
+--- a/apps/web/src/locales/te/messages.json
++++ b/apps/web/src/locales/te/messages.json
+@@ -1159,7 +1159,7 @@
+     "message": "Log in"
+   },
+   "logInToBitwarden": {
+-    "message": "Log in to Bitwarden"
++    "message": "Log in to Vaultwarden"
+   },
+   "authenticationTimeout": {
+     "message": "Authentication timeout"
+diff --git a/apps/web/src/locales/th/messages.json b/apps/web/src/locales/th/messages.json
+index d78b2e863d..fbb5018088 100644
+--- a/apps/web/src/locales/th/messages.json
++++ b/apps/web/src/locales/th/messages.json
+@@ -1159,7 +1159,7 @@
+     "message": "เข้าสู่ระบบ"
+   },
+   "logInToBitwarden": {
+-    "message": "Log in to Bitwarden"
++    "message": "Log in to Vaultwarden"
+   },
+   "authenticationTimeout": {
+     "message": "Authentication timeout"
+diff --git a/apps/web/src/locales/tr/messages.json b/apps/web/src/locales/tr/messages.json
+index 94c9633e22..f2016c0959 100644
+--- a/apps/web/src/locales/tr/messages.json
++++ b/apps/web/src/locales/tr/messages.json
+@@ -1159,7 +1159,7 @@
+     "message": "Giriş yap"
+   },
+   "logInToBitwarden": {
+-    "message": "Log in to Bitwarden"
++    "message": "Log in to Vaultwarden"
+   },
+   "authenticationTimeout": {
+     "message": "Authentication timeout"
+diff --git a/apps/web/src/locales/vi/messages.json b/apps/web/src/locales/vi/messages.json
+index e1d5e54b55..5cca220629 100644
+--- a/apps/web/src/locales/vi/messages.json
++++ b/apps/web/src/locales/vi/messages.json
+@@ -1159,7 +1159,7 @@
+     "message": "Đăng nhập"
+   },
+   "logInToBitwarden": {
+-    "message": "Log in to Bitwarden"
++    "message": "Log in to Vaultwarden"
+   },
+   "authenticationTimeout": {
+     "message": "Authentication timeout"
 diff --git a/apps/web/src/manifest.json b/apps/web/src/manifest.json
 index 92a1204c60..d9ff4771a3 100644
 --- a/apps/web/src/manifest.json
@@ -691,6 +1172,39 @@ index b608542b37..4f0b86baa7 100644
        <a bitLink routerLink="/signup">{{ "createAccount" | i18n }}</a>
      </div>
    `,
+diff --git a/libs/auth/src/angular/login/login.component.html b/libs/auth/src/angular/login/login.component.html
+index b04a54da42..6d02ea3ffb 100644
+--- a/libs/auth/src/angular/login/login.component.html
++++ b/libs/auth/src/angular/login/login.component.html
+@@ -36,28 +36,6 @@
+       <button type="button" bitButton block buttonType="primary" (click)="continuePressed()">
+         {{ "continue" | i18n }}
+       </button>
+-
+-      <div class="tw-text-center">{{ "or" | i18n }}</div>
+-
+-      <!-- Link to Login with Passkey page -->
+-      <ng-container *ngIf="isLoginWithPasskeySupported()">
+-        <a
+-          bitButton
+-          block
+-          linkType="primary"
+-          routerLink="/login-with-passkey"
+-          (mousedown)="$event.preventDefault()"
+-        >
+-          <i class="bwi bwi-passkey tw-mr-1"></i>
+-          {{ "logInWithPasskey" | i18n }}
+-        </a>
+-      </ng-container>
+-
+-      <!-- Button to Login with SSO -->
+-      <button type="button" bitButton block buttonType="secondary" (click)="handleSsoClick()">
+-        <i class="bwi bwi-provider tw-mr-1"></i>
+-        {{ "useSingleSignOn" | i18n }}
+-      </button>
+     </div>
+   </div>
+ 
 diff --git a/libs/auth/src/angular/registration/registration-start/registration-start.component.html b/libs/auth/src/angular/registration/registration-start/registration-start.component.html
 index de3611a597..23a7324566 100644
 --- a/libs/auth/src/angular/registration/registration-start/registration-start.component.html
