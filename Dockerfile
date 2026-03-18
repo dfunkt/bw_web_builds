@@ -23,8 +23,8 @@ RUN node --version && npm --version
 # Can be a tag, release, but prefer a commit hash because it's not changeable
 # https://github.com/bitwarden/clients/commit/${VAULT_VERSION}
 #
-# Using https://github.com/dfunkt/vw_web_builds/tree/v2026.2.1
-ARG VAULT_VERSION=280c5d4285faee673c4ff044ad35110c7e3cde05
+# Using https://github.com/dfunkt/vw_web_builds/tree/v2026.3.0
+ARG VAULT_VERSION=07d7afa000ebb90082a51316210a4042e10a1472
 ENV VAULT_VERSION=$VAULT_VERSION
 ENV VAULT_FOLDER=bw_clients
 ENV CHECKOUT_TAGS=false
